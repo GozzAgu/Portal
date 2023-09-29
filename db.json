@@ -1,0 +1,318 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "First product",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "email": "hello@world.com",
+      "is_admin": false,
+      "password": "some_random_password"
+    }
+  ],
+  "clients": [
+    {
+      "username": "Shell",
+      "email": "helloshell@world.com",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "id": 1
+    },
+    {
+      "username": "Shell",
+      "email": "helloshell@world.com",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "username": "Shell",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "email": "helloshell@world.com",
+      "products": 3,
+      "services": 2
+    },
+    {
+      "id": 4,
+      "username": "Total",
+      "email": "hellototal@world.com",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "products": "",
+      "services": ""
+    },
+    {
+      "id": 5,
+      "username": "Total",
+      "email": "hellototal@world.com",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "products": "",
+      "services": ""
+    },
+    {
+      "id": 6,
+      "username": "Ccl",
+      "email": "ccl@ccl.com",
+      "created_at": "2023-09-18, 08:41:57 AM",
+      "products": "",
+      "services": ""
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 4",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "13/09/2023, 08:51:26 AM"
+    },
+    {
+      "id": 2,
+      "name": "Five",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "13/09/2023, 09:11:00 AM"
+    },
+    {
+      "id": 3,
+      "name": "This One",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "08/09/2023, 14:50:22 PM"
+    },
+    {
+      "id": 4,
+      "name": "Four",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "13/09/2023, 08:51:26 AM",
+      "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+    },
+    {
+      "id": 5,
+      "name": "Five",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "13/09/2023, 09:11:00 AM",
+      "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+    },
+    {
+      "id": 6,
+      "name": "This One",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "08/09/2023, 14:50:22 PM"
+    },
+    {
+      "id": 7,
+      "name": "Four",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "13/09/2023, 08:51:26 AM",
+      "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+    },
+    {
+      "id": 8,
+      "name": "Five",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "13/09/2023, 09:11:00 AM",
+      "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+    },
+    {
+      "id": 9,
+      "name": "Product",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "18/09/2023, 08:10:15 AM",
+      "img": ""
+    },
+    {
+      "id": 10,
+      "name": "Sepal",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "18/09/2023, 08:10:45 AM",
+      "img": ""
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "First One",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "23/08/2023, 14:59:45 PM"
+    },
+    {
+      "id": 2,
+      "name": "Second One",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+    },
+    {
+      "id": 3,
+      "name": "First One",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "23/08/2023, 14:59:45 PM"
+    },
+    {
+      "id": 4,
+      "name": "Second One",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "23/08/2023, 14:59:45 PM",
+      "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+    },
+    {
+      "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048",
+      "id": 5,
+      "name": "Third Service",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "23/08/2023, 14:59:45 PM"
+    },
+    {
+      "id": 6,
+      "name": "Service",
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "created_at": "2023-09-18, 08:11:05 AM",
+      "img": ""
+    }
+  ],
+  "licenses": {
+    "services": [
+      {
+        "id": 1,
+        "name": "Random 1",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 2,
+        "name": "Random 1",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 3,
+        "name": "Random 1",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 4,
+        "name": "Random 1",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 5,
+        "name": "Random 1",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 6,
+        "name": "Random 1",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 7,
+        "name": "Random 1",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "First product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 2,
+        "name": "Second product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 3,
+        "name": "First product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 4,
+        "name": "Second product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 5,
+        "name": "First product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 6,
+        "name": "Second product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 7,
+        "name": "Second product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 8,
+        "name": "First product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      },
+      {
+        "id": 9,
+        "name": "Second product",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+        "created_at": "23/08/2023, 14:59:45 PM",
+        "license_key": "1234567",
+        "expiration_date": "23/08/2024, 14:59:45 PM",
+        "img": "blob:http://localhost:5173/4193c542-ba28-4bea-8f78-4f989c393048"
+      }
+    ]
+  }
+}

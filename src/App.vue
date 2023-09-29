@@ -1,0 +1,38 @@
+<template>
+  <div class="bg-slate-200 h-screen">
+    <router-view />
+  </div>
+</template>
+
+<script setup lang="ts">
+
+</script>
+
+<style>
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 8px;
+  font-size: 17px;
+  color: #b8b8b8;
+}
+.button-wrap {
+  position: relative;
+}
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+</style>

@@ -1,0 +1,14 @@
+--- localhost:3000/products
+
+GET /products
+--- All products;
+
+GET /products?id=2
+-- just that one
+
+POST /products
+--- Should have body will create a new product
+
+DELETE /products?id=2
+-- Delete just that value
+
